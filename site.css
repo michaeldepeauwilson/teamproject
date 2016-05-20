@@ -1,7 +1,25 @@
-<body> 
 
 
-{box-sizing: border-box;
+body{
 
-
+	background-image: url(worldmapoutline.jpg);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 150px;
+	background-attachment: fixed;
 }
+
+h1{
+	font-family:Arial, Verdana, Monospace;;
+	font-size: 35px;
+	text-align: center;
+	margin-top:0;
+	margin-bottom:10px;
+}
+
+p{
+	margin-left: 100px;
+	font-family: Times, Georgia, serif;
+	font-size: 15px;
+}	

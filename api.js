@@ -38,10 +38,10 @@ function showStoryList(stories){
 	var html = [];
 
 	_.each(stories, function(story){
-		html.push("<a href='" + story.url + "'>" + story.title + "</a><p>" + story.abstract);
+		html.push("<li><a href='" + story.url + "'>" + story.title + "</a><p>" + story.abstract + "</p></li>");
 	});
 
-	$("#story-list").html(html.join("<li>"));
+	$("#story-list").html(html.join(""));
 }
 
 
